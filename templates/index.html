@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django-Pico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    
+    <main class="container">
+        <h1>Hello, world!</h1>
+        <form>
+
+            <!-- Grid -->
+            <div class="grid">
+          
+              
+              <label for="firstname">
+                First name
+                <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+              </label>
+          
+              <label for="lastname">
+                Last name
+                <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+              </label>
+          
+            </div>
+          
+            
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Email address" required>
+            <small>We'll never share your email with anyone else.</small>
+          
+          
+            <button type="submit">Submit</button>
+          
+          </form>
+      </main>
+</body>
+</html>
